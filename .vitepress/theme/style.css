@@ -1,0 +1,44 @@
+/* 定义主题颜色变量 */
+:root {
+  /* 暗色主题变量 */
+  --card-bg: rgba(255, 255, 255, 0.04);
+  --card-border: rgba(255, 255, 255, 0.08);
+  --text-primary: #f8fafc;
+  --text-secondary: #d1d5db;
+  --card-shadow: 0 32px 80px rgba(0, 0, 0, 0.25);
+  --icon-filter: invert(1);
+}
+
+/* 亮色模式 */
+:root:not(.dark) {
+  --card-bg: rgba(15, 23, 42, 0.04);
+  --card-border: rgba(15, 23, 42, 0.12);
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --card-shadow: 0 32px 80px rgba(0, 0, 0, 0.08);
+  --icon-filter: invert(0);
+}
+
+/* 应用主题变量到卡片 */
+.home-feature-card {
+  background: var(--card-bg);
+  border: 2px solid var(--card-border);
+  color: var(--text-secondary);
+  box-shadow: var(--card-shadow);
+  transition: all 0.3s ease;
+}
+
+.home-feature-card:hover {
+  border-color: rgba(96, 165, 250, 0.5);
+  transform: translateY(-4px);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.15);
+}
+
+.home-feature-card h3 {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.home-feature-card img {
+  filter: var(--icon-filter);
+}

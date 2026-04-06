@@ -1,0 +1,11 @@
+# D1数据初始化代码
+
+```
+CREATE TABLE IF NOT EXISTS images (
+  id TEXT PRIMARY KEY,
+  url TEXT NOT NULL,
+  ts INTEGER NOT NULL,
+  likes INTEGER NOT NULL DEFAULT 0
+);
+
+```
