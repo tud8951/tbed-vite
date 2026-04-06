@@ -6,7 +6,7 @@ hero:
   name: "Tbed"
   text: ""
   tagline: 一个基于 Cloudflare Pages/Functions 构建的在线共享图片站。支持图片上传、主页展示与分享、点赞统计、热门/最新分类、分页浏览，以及带密码的管理员后台（删除、修改点赞、开关上传与过滤、选择过滤账号）。
-  image: /img/tg.png
+  image: /assets/tg.CG_D7XuD.png
   actions:
     - theme: brand
       text: Start
