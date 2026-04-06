@@ -2,8 +2,8 @@
 
 演示网站：[https://tbed.bigjackson.top](https://tbed.bigjackson.top)
 
-![](/public/main.png)
-![](/public/admin.png)
+![](/img/main.png)
+![](/img/admin.png)
 
 ## 许可协议
 - 本项目采用 Apache License 2.0

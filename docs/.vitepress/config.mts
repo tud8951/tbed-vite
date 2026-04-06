@@ -10,7 +10,7 @@ export default defineConfig({
     root: {
       label: '中文',
       lang: 'zh',
-      head: [["link", { rel: "icon", href: "/public/telegram.svg" }]],
+      head: [["link", { rel: "icon", href: "/img/telegram.png" }]],
       themeConfig: {
         nav: [
           { text: '首页', link: '/' },
