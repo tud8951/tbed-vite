@@ -7,7 +7,7 @@
 
 ## 许可协议
 - 本项目采用 Apache License 2.0
-- 完整文本见 [LICENSE](./LICENSE)
+- 完整文本见 [LICENSE](https://github.com/tud8951/tbed/blob/main/LICENSE)
 
 ## 特性
 - 图片上传（JPG/PNG ≤ 5MB），失败信息友好
