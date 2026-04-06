@@ -16,7 +16,7 @@
 - 懒加载缩略图与边缘代理 `/api/i/:id`，加速加载
 - 点赞计数，前端本地去重
 - 管理后台：分页、删除、保存点赞、允许上传开关、开启图片过滤开关
-- 图片过滤（Sightengine）：支持多个账号，后台下拉切换；开启过滤时“先审核再写库与推送”，不合规返回 415
+- 图片过滤（[Sightengine](https://dashboard.sightengine.com/)）：支持多个账号，后台下拉切换；开启过滤时“先审核再写库与推送”，不合规返回 415
 - 多图床策略：Telegraph（三域）优先，失败回退 Telegram 直链（过滤通过后执行）
 - SEO：已添加 robots.txt 与首页 meta（description/keywords/OG）
 - 后台显示上传者 IP，并支持点击复制
@@ -24,7 +24,7 @@
 ## 技术栈
 - Cloudflare Pages + Functions
 - Cloudflare KV（元信息与设置）/ D1（图片索引与点赞）
-- Telegram Bot（回退图床与推送）/ Sightengine（图片审核）
+- Telegram Bot（回退图床与推送）/ [Sightengine](https://dashboard.sightengine.com/)（图片审核）
 
 ## 快速开始
 - 本地开发：`npm i` → `npm run dev`，本地环境变量写入 `.dev.vars`（`PASSWORD`、可选 `TGBOT`、`TGGROUP`）

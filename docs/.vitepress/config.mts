@@ -30,6 +30,7 @@ export default defineConfig({
             items: [
               { text: 'YouTube', link: 'https://www.youtube.com/@CNBigJackson' },
               { text: 'GitHub', link: 'https://github.com/tud8951/tbed' },
+              { text: 'SIGHTENGINE', link: 'https://dashboard.sightengine.com/' },
               { text: '良心云机场', link: 'https://良心云.com/#/register?code=yE6IosTB'}
             ]
           }
