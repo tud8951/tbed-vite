@@ -10,7 +10,7 @@ export default defineConfig({
     root: {
       label: '中文',
       lang: 'zh',
-      head: [["link", { rel: "icon", href: "/img/tg.png" }]],
+      head: [["link", { rel: "icon", href: "/assets/tg.CG_D7XuD.png" }]],
       themeConfig: {
         nav: [
           { text: '首页', link: '/' },
