@@ -13,7 +13,7 @@ hero:
       link: /start
     - theme: alt
       text: Follow in YouTube
-      link: https://www.youtube.com/@CNBigJackson
+      link: https://www.youtube.com/watch?v=evbYNjdqjpI
 
 ---
 

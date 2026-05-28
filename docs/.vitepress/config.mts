@@ -15,6 +15,7 @@ export default defineConfig({
         nav: [
           { text: '首页', link: '/' },
           { text: '开始', link: '/start' },
+          { text: '教程视频', link: 'https://www.youtube.com/watch?v=evbYNjdqjpI' },
           { text: '良心云', link: 'https://良心云.com/#/register?code=yE6IosTB' }
         ],
         sidebar: [
@@ -31,6 +32,7 @@ export default defineConfig({
               { text: 'YouTube', link: 'https://www.youtube.com/@CNBigJackson' },
               { text: 'GitHub', link: 'https://github.com/tud8951/tbed' },
               { text: 'SIGHTENGINE', link: 'https://dashboard.sightengine.com/' },
+              { text: '教程视频', link: 'https://www.youtube.com/watch?v=evbYNjdqjpI' },
               { text: '良心云机场', link: 'https://良心云.com/#/register?code=yE6IosTB'}
             ]
           }

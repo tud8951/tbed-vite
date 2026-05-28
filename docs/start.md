@@ -2,6 +2,12 @@
 
 演示网站：[https://tbed.bigjackson.top](https://tbed.bigjackson.top)
 
+教程视频：[https://www.youtube.com/watch?v=evbYNjdqjpI](https://www.youtube.com/watch?v=evbYNjdqjpI)
+
+注意：视频在YouTube，需要科学上网才能访问
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/evbYNjdqjpI?si=Re4N0OS6w4gdVkSA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ![](/img/main.png)
 ![](/img/admin.png)
 
